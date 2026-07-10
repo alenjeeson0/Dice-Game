@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5cb90;
+  font-weight: 400;
+  min-height: 100dvh;
+  display: flex;
+  font-family: "Yuyu", sans-serif;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  background-color: #34a99d;
+  padding: 10px 0px;
+  color: #fff3c8;
+}
+
+.logo {
+  height: 80px;
+  fill: #ffb6a6;
+  display: block;
+}
+
+.name {
+  margin: 0px;
+  font-size: 3.8rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 50px;
+  flex: 1;
+  font-size: 5.5rem;
+}
+
+.para1 {
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.input {
+  font-family: "Yuyu", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  background-color: #e5cb90;
+  border: 3px solid #34a99d;
+  border-radius: 10px;
+  border: width;
+  text-align: center;
+  margin: 20px;
+  width: 15rem;
+  padding: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  font-size: 1.5rem;
+  background-color: #e5cb90;
+  border: 2px solid #34a99d;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+}
+.button:hover {
+  color: #e5cb90;
+  background-color: #34a99d;
+}
+.para2 {
+  margin: 10px ;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+}
+.result-para {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.result-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 50px;
+}
+.result-img img {
+  height: 90px;
+  object-fit: contain;
+}
+
+.footer {
+  background-color: #34a99d;
+  color: #e5cb90;
+  text-align: center;
+  margin-top: auto;
+  font-weight: 600;
+}
+
+.trademark {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+@media (max-width: 425px) {
+  .main{
+    margin: auto;
+  }
+  .head {
+    gap: 10px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .name {
+    font-size: 4rem;
+  }
+
+  .para1 {
+    font-size: 3rem;
+    
+    padding: 0px 50px;
+  }
+
+  .input {
+    font-size: 2rem;
+    width: 8rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+  }
+  .trademark {
+    margin: 10px;
+    font-size: 1.7rem;
+  }
+}
