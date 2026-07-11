@@ -11,7 +11,7 @@ Built as part of my JavaScript learning journey while transitioning into fronten
 ## 📸 Preview
 
 <!-- Add a screenshot here once deployed -->
-![Dice Roll Preview](<img width="1870" height="955" alt="Screenshot 2026-07-11 135557" src="https://github.com/user-attachments/assets/ef53edf7-d325-4c91-be91-304d778d730b" />)
+<img width="1870" height="955" alt="Screenshot 2026-07-11 135557" src="https://github.com/user-attachments/assets/ef53edf7-d325-4c91-be91-304d778d730b" />
 
 ## ✨ Features
 
